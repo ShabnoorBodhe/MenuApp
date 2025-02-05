@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:menu_app/home_screen.dart'; // Replace with your actual home screen import
+import 'package:menu_app/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -35,17 +35,16 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal, // Custom background color
+      backgroundColor: Colors.teal,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'images/menulogo.png', // Ensure this path is correct
+              'images/menulogo.png',
               width: 150,
               height: 150,
             ),
-
           ],
         ),
       ),
